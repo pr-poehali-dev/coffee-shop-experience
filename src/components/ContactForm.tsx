@@ -46,15 +46,11 @@ export default function ContactForm() {
           <div className="flex flex-col gap-5">
             <div className="flex items-center gap-4">
               <Icon name="Phone" size={18} className="text-neutral-400 shrink-0" />
-              <span className="text-white">+7 (800) 000-00-00</span>
+              <a href="tel:+79519308448" className="text-white hover:text-neutral-300 transition-colors">+7 (951) 930-84-48</a>
             </div>
             <div className="flex items-center gap-4">
               <Icon name="Mail" size={18} className="text-neutral-400 shrink-0" />
-              <span className="text-white">info@malevich.ru</span>
-            </div>
-            <div className="flex items-center gap-4">
-              <Icon name="MapPin" size={18} className="text-neutral-400 shrink-0" />
-              <span className="text-white">г. Москва, ул. Примерная, 1</span>
+              <a href="mailto:malevich_school@yandex.ru" className="text-white hover:text-neutral-300 transition-colors">malevich_school@yandex.ru</a>
             </div>
           </div>
         </div>

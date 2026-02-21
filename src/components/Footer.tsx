@@ -11,18 +11,14 @@ export default function Footer() {
           <div className="bg-neutral-900 py-4 sm:py-6 lg:py-8 px-4 sm:px-6 h-full w-full flex flex-col justify-between">
             <div className="flex shrink-0 gap-8 sm:gap-12 lg:gap-20">
               <div className="flex flex-col gap-2 sm:gap-3 mr-4">
-                <div className="flex items-center gap-2 text-white text-xs sm:text-sm">
+                <a href="tel:+79519308448" className="flex items-center gap-2 text-white hover:text-neutral-400 transition-colors text-xs sm:text-sm">
                   <Icon name="Phone" size={14} className="text-neutral-400 shrink-0" />
-                  +7 (800) 000-00-00
-                </div>
-                <div className="flex items-center gap-2 text-white text-xs sm:text-sm">
+                  +7 (951) 930-84-48
+                </a>
+                <a href="mailto:malevich_school@yandex.ru" className="flex items-center gap-2 text-white hover:text-neutral-400 transition-colors text-xs sm:text-sm">
                   <Icon name="Mail" size={14} className="text-neutral-400 shrink-0" />
-                  info@malevich.ru
-                </div>
-                <div className="flex items-center gap-2 text-white text-xs sm:text-sm">
-                  <Icon name="MapPin" size={14} className="text-neutral-400 shrink-0" />
-                  г. Москва, ул. Примерная, 1
-                </div>
+                  malevich_school@yandex.ru
+                </a>
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
                 <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Компания</h3>
