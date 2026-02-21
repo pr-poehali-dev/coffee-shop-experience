@@ -19,6 +19,14 @@ export default function Footer() {
                   <Icon name="Mail" size={14} className="text-neutral-400 shrink-0" />
                   malevich_school@yandex.ru
                 </a>
+                <div className="flex items-start gap-2 text-white text-xs sm:text-sm">
+                  <Icon name="MapPin" size={14} className="text-neutral-400 shrink-0 mt-0.5" />
+                  г. Екатеринбург, ул. Латвийская 56/3
+                </div>
+                <div className="flex items-start gap-2 text-neutral-400 text-xs">
+                  <Icon name="Truck" size={14} className="text-neutral-400 shrink-0 mt-0.5" />
+                  Собственная доставка по УрФО
+                </div>
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
                 <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Компания</h3>

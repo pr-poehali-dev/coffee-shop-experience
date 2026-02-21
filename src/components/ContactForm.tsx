@@ -52,6 +52,14 @@ export default function ContactForm() {
               <Icon name="Mail" size={18} className="text-neutral-400 shrink-0" />
               <a href="mailto:malevich_school@yandex.ru" className="text-white hover:text-neutral-300 transition-colors">malevich_school@yandex.ru</a>
             </div>
+            <div className="flex items-start gap-4">
+              <Icon name="MapPin" size={18} className="text-neutral-400 shrink-0 mt-0.5" />
+              <span className="text-white">г. Екатеринбург, ул. Латвийская 56/3</span>
+            </div>
+            <div className="flex items-start gap-4">
+              <Icon name="Truck" size={18} className="text-neutral-400 shrink-0 mt-0.5" />
+              <span className="text-neutral-300 text-sm">Собственная доставка по всему УрФО</span>
+            </div>
           </div>
         </div>
 
