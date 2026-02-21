@@ -50,7 +50,7 @@ export default function ContactForm() {
             </div>
             <div className="flex items-center gap-4">
               <Icon name="Mail" size={18} className="text-neutral-400 shrink-0" />
-              <a href="mailto:malevich_school@yandex.ru" className="text-white hover:text-neutral-300 transition-colors">malevich_school@yandex.ru</a>
+              <a href="mailto:malevich-school@yandex.ru" className="text-white hover:text-neutral-300 transition-colors">malevich-school@yandex.ru</a>
             </div>
             <div className="flex items-start gap-4">
               <Icon name="MapPin" size={18} className="text-neutral-400 shrink-0 mt-0.5" />

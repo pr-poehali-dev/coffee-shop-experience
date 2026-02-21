@@ -15,9 +15,9 @@ export default function Footer() {
                   <Icon name="Phone" size={14} className="text-neutral-400 shrink-0" />
                   +7 (951) 930-84-48
                 </a>
-                <a href="mailto:malevich_school@yandex.ru" className="flex items-center gap-2 text-white hover:text-neutral-400 transition-colors text-xs sm:text-sm">
+                <a href="mailto:malevich-school@yandex.ru" className="flex items-center gap-2 text-white hover:text-neutral-400 transition-colors text-xs sm:text-sm">
                   <Icon name="Mail" size={14} className="text-neutral-400 shrink-0" />
-                  malevich_school@yandex.ru
+                  malevich-school@yandex.ru
                 </a>
                 <div className="flex items-start gap-2 text-white text-xs sm:text-sm">
                   <Icon name="MapPin" size={14} className="text-neutral-400 shrink-0 mt-0.5" />
