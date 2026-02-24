@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 
-NOTIFY_EMAIL = "malevich_school@yandex.ru"
+NOTIFY_EMAIL = "malevich-school@yandex.ru"
 SMTP_HOST = "smtp.yandex.ru"
 SMTP_PORT = 465
 
